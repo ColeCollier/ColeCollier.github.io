@@ -1,0 +1,88 @@
+
+html{
+  font-family: arial, helvetica, sans-serif;
+}
+*{
+
+}
+  body{
+    background: #FCFCFC;
+    margin: 30px 50px;
+    line-height: 1.4;
+  }
+
+/* Starting of the nav area */
+/* for some reason there is a padding in the nav box that i cant get to go away */
+.main-nav{
+  background-color: #283747;
+  border-style: solid;
+  border-radius: 15px;
+  margin: 30px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  color: white;
+
+}
+
+.main-nav ul{
+  display: grid;
+  grid-gap: 20px;
+  list-style: none;
+  padding: 0;
+  grid-template-columns: repeat(5, .5fr);
+
+}
+.main-nav h6{
+  color:#283747;
+}
+.main-nav a{
+  background: #283747;
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  margin: 10px;
+  text-align:center;
+  color: white;
+  text-transform: uppercase;
+  font-size: .8rem;
+  border-style: solid;
+  border-color: #283747;
+  border-radius: 10px
+
+}
+
+/* End name */
+/* Body */
+.container{
+  display: grid;
+  grid-gap: 20px;
+
+}
+.container img{
+  max-width: 15%
+}
+.top-container{
+  text-align: center;
+}
+.cards{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-bottom: 20px
+}
+.card .btn{
+  background-color: #283747;
+}
+footer{
+
+  text-align: center;
+  font-size: .8rem;
+}
+
+
+.bottomFooter{
+  background-color: #283747;
+  padding: 5px;
+  text-align: center;
+  color: white;
+
+}
